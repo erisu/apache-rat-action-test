@@ -15,14 +15,14 @@
 # specific language governing permissions and limitations
 # under the License.
 
-name: Node CI
+name: Release Auditing
 
 on: [push, pull_request]
 
 jobs:
   test:
-    name: Testing Apache RAT Action
+    name: Check License Headers
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: erisu/apache-rat-action@06801cd87c2a1c2ef07d8e718b94add367ec2b8c
+      - uses: erisu/apache-rat-action@bc7dcd0534e8681fe7530ad58170821dc6dd15f9
