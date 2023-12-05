@@ -25,4 +25,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: erisu/apache-rat-action@59deec5fd6838dc281e7254052e3b537f62c491a
+      - uses: erisu/apache-rat-action@a5de4517430fd18c719c8407f56194a1acf2e1b8
