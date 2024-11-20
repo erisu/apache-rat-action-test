@@ -27,4 +27,4 @@ jobs:
       - uses: actions/checkout@v4
       - uses: erisu/apache-rat-action@edb3d4a770f293729c7b15c253e1902200cb1c06
         with:
-          rat-version: 0.16.1
+          rat-version: 0.16
