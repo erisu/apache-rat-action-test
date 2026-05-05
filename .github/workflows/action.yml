@@ -24,7 +24,5 @@ jobs:
     name: Check License Headers
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: erisu/apache-rat-action@46fb01ce7d8f76bdcd7ab10e7af46e1ea95ca01c
-        with:
-          rat-version: 0.17
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: erisu/apache-rat-action@aeeecd0bf52da897e050c7b48f0ae51e584309c5 # feat/bump-rat-0.18
